@@ -1,65 +1,85 @@
 :root {
-    --primary-color: #005f73; 
-    --secondary-color: #fcbf49; 
-    --accent1-color: #2d6a4f; 
-    --accent2-color: #f77f00; 
-}
-body {
-    font-family: 'Lora', serif;
+    --primary-color: #005f73; /* Ocean Blue */
+    --secondary-color: #fcbf49; /* Golden Yellow */
+    --accent1-color: #2d6a4f; /* Emerald Green */
+    --accent2-color: #f77f00; /* Bright Orange */
+  }
+
+  h1, h2 {
+    font-family: 'Poppins', sans-serif; 
     color: var(--primary-color);
-    background-color: #f4f4f4; 
-}
+  }
+  
+  p {
+    font-family: 'Lora', serif; 
+    color: #333; 
+  }
 
-h1, h2 {
-    font-family: 'Poppins', sans-serif;
-    color: var(--primary-color);
-}
+  nav {
+    background-color: #fcbf49;
+    padding: 10px;
+  }
 
-a {
-    color: var(--primary-color);
+  nav a {
+    color: #005f73;
+    display: -moz-grid-line;
+    padding: 20px;
 }
-
-.hero {
-    background-color: var(--accent1-color); 
-}
-
-.social-media a {
-    color: var(--secondary-color); 
-    text-decoration: none;
-}
-
-.social-media a:hover {
+  
+  nav a:hover {
     color: var(--accent2-color); 
-}
-h1, h2 {
-    font-family: 'Poppins', sans-serif;
-}
-
-p, body {
-    font-family: 'Lora', serif;
-}
-.hero {
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .hero {
     position: relative;
     width: 100%;
-    height: 500px;
-    background-image: url('images/hero.PNG');
-    background-size: cover;
-    background-position: center;
-}
-
-.hero h1 {
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
     position: absolute;
     top: 20%;
-    left: 5%;
-    color: white;
+    left: 10%;
+    color: white; 
+    font-family: 'Poppins', sans-serif; 
     font-size: 3rem;
-}
+  }
 
-.hero article {
-    position: absolute;
-    bottom: 10%;
-    right: 5%;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+  footer {
+    background-color: var(--secondary-color);
     color: white;
-}
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    margin: 0 10px;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  section img {
+    width: 200px; 
+    height: auto; 
+    margin: 10px; 
+  }
+  section {
+    background-color: #f77f00;
+    padding: 10px;
+  }
+  section img {
+    background-color: #2d6a4f;
+    padding: 10px;
+  }
+  
+  
+  
