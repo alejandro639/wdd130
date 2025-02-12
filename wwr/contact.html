@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Rafting Adventures for inquiries, reservations, and more. We're happy to assist you!">
+    <title>Contact Us - Rafting Adventures</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <img src="images/logo.PNG" alt="Rafting Adventure Logo">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <img src="images/hero.PNG" alt="Rafting Adventure">
+      <h1>Get in Touch with Us!</h1>
+    </div>
+
+    <!-- Company Information Section -->
+    <section class="company-info">
+      <h2>Company Information</h2>
+      <p><strong>Address:</strong> 123 Rafting St, Adventure City</p>
+      <p><strong>Phone:</strong> (123) 456-7890</p>
+      <p><strong>Email:</strong> contact@raftingadventures.com</p>
+      
+      <!-- Google Map Embed -->
+      <h3>Find Us Here:</h3>
+      <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Employee Profiles Section -->
+    <section class="employee-profiles">
+      <h2>Meet Our Team</h2>
+      <div class="employee-profile">
+        <img src="images/employee1.jpg" alt="John Doe">
+        <p>John Doe, Customer Service Manager</p>
+      </div>
+      <div class="employee-profile">
+        <img src="images/employee2.jpg" alt="Jane Smith">
+        <p>Jane Smith, Sales Manager</p>
+      </div>
+      <div class="employee-profile">
+        <img src="images/employee3.jpg" alt="Bill Turner">
+        <p>Bill Turner, Guide</p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+      <h2>Contact Form</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <p>Purpose of Your Message:</p>
+        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+        <label for="general">General Inquiry</label><br>
+        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+        <label for="reservation">Reservation Question</label><br>
+        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+        <label for="suggestion">Website Suggestion</label><br>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Rafting Adventure. All rights reserved. Created by Abel Alejandro Vizarreta Saldarriaga</p>
+      <a href="https://facebook.com"><img src="images/facebook.PNG" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/twitter.PNG" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/instagram.PNG" alt="Instagram"></a>
+      <p><a href="contact-wireframe.png">View Contact Us Wireframe</a></p>
+    </footer>
+  </body>
+</html>
+
+
