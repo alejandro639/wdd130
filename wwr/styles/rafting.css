@@ -5,6 +5,11 @@
   --accent2-color: #f77f00; /* Bright Orange */
 }
 
+body {
+  background-color: #2d6a4f; /* Puedes reemplazar este valor con cualquier color que desees */
+}
+
+
 /* General text styles */
 h1, h2 {
   font-family: 'Poppins', sans-serif;
@@ -23,6 +28,7 @@ nav {
   align-items: center;
   background-color: var(--secondary-color);
   padding: 10px;
+  width: 100%; /* Make nav stretch across the full width */
 }
 
 nav a {
@@ -42,7 +48,6 @@ nav a:hover {
   border: 2px solid var(--accent2-color); 
 }
 
-
 a {
   text-decoration: none;
 }
@@ -54,6 +59,7 @@ a {
   align-items: center;
   gap: 20px;
   padding: 20px;
+  width: 100%; /* Ensure the hero section stretches across the full width */
 }
 
 .hero img {
@@ -64,7 +70,7 @@ a {
 .hero h1 {
   grid-column: 2;
   font-size: 3rem;
-  color: white;
+  color: #005f73;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -76,6 +82,7 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   padding: 20px;
+  width: 100%; /* Ensure the footer stretches across the full width */
 }
 
 footer a {
@@ -89,9 +96,10 @@ footer img {
 
 /* Section Styles (General) */
 section {
-  margin: 20px;
+  margin: 20px auto; /* Center sections with some margin */
   padding: 15px;
   background-color: #f2f2f2;
+  width: 100%; /* Ensure section stretches across the full width */
 }
 
 /* Section Titles and Paragraphs */
@@ -112,6 +120,7 @@ section {
   justify-content: space-between;
   gap: 20px;
   padding: 20px;
+  width: 100%; /* Ensure the adventure section stretches across the full width */
 }
 
 figure {
@@ -133,11 +142,99 @@ figcaption {
 
 /* Image Styles */
 section img {
-  width: 400px;
+  width: 100%; /* Ensure images take up the full width of their container */
   height: auto;
   margin: 10px;
 }
 
-  
-  
-  
+#cta-contact p {
+  font-size: 30px;
+}
+
+.cta-button {
+  font-size: 30px; 
+  padding: 10px 20px; 
+}
+
+.hero-text p {
+  font-size: 24px; 
+}  
+
+.cta p {
+  font-size: 20px; 
+}
+
+.cta a {
+  font-size: 20px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  flex-direction: column;
+  text-align: center;
+  width: 100%; /* Ensure the form takes up the full width */
+}
+
+.contact-form form {
+  width: 80%; 
+  max-width: 600px; 
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  background-color: #f9f9f9; 
+}
+
+.contact-form h2 {
+    font-size: 2rem; 
+    margin-bottom: 20px; 
+}
+
+/* Hero Section Style */
+.hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  background-color: #ffffff; /* Fondo blanco */
+  border: 2px solid #005f73; /* Borde con el color primario */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 20px 0; /* Márgenes arriba y abajo */
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  grid-column: 2;
+  font-size: 3rem;
+  color: #005f73;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Article Section Style */
+article {
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco */
+  border: 2px solid #005f73; /* Borde con el color primario */
+  border-radius: 10px; /* Bordes redondeados */
+  margin: 20px 0; /* Márgenes arriba y abajo */
+}
+
+article h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+article p {
+  font-size: 1rem;
+  color: #333;
+}
+
+
