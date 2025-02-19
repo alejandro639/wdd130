@@ -5,10 +5,10 @@
   --accent2-color: #f77f00; /* Bright Orange */
 }
 
+/* Cambiar el fondo de toda la página */
 body {
-  background-color: #2d6a4f; /* Puedes reemplazar este valor con cualquier color que desees */
+  background-color: #2d6a4f;  /* Fondo gris claro (puedes usar el color que desees) */
 }
-
 
 /* General text styles */
 h1, h2 {
@@ -28,7 +28,9 @@ nav {
   align-items: center;
   background-color: var(--secondary-color);
   padding: 10px;
-  width: 100%; /* Make nav stretch across the full width */
+  border: 2px solid #000; /* Borde negro */
+  border-radius: 10px;     /* Bordes redondeados */
+  margin: 20px 0;          /* Separación entre recuadro y otros elementos */
 }
 
 nav a {
@@ -37,7 +39,7 @@ nav a {
   font-size: 2.2rem;
   background-color: white; 
   border: 2px solid var(--primary-color); 
-  border-radius: 5px; 
+  border-radius: 5px;      /* Bordes redondeados en los enlaces */
   text-transform: uppercase; 
   transition: all 0.3s ease; 
 }
@@ -59,7 +61,6 @@ a {
   align-items: center;
   gap: 20px;
   padding: 20px;
-  width: 100%; /* Ensure the hero section stretches across the full width */
 }
 
 .hero img {
@@ -82,7 +83,9 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   padding: 20px;
-  width: 100%; /* Ensure the footer stretches across the full width */
+  border: 2px solid #000;  /* Borde negro */
+  border-radius: 10px;      /* Bordes redondeados */
+  margin: 20px 0;           /* Separación entre recuadro y otros elementos */
 }
 
 footer a {
@@ -96,10 +99,9 @@ footer img {
 
 /* Section Styles (General) */
 section {
-  margin: 20px auto; /* Center sections with some margin */
+  margin: 20px;
   padding: 15px;
   background-color: #f2f2f2;
-  width: 100%; /* Ensure section stretches across the full width */
 }
 
 /* Section Titles and Paragraphs */
@@ -120,7 +122,6 @@ section {
   justify-content: space-between;
   gap: 20px;
   padding: 20px;
-  width: 100%; /* Ensure the adventure section stretches across the full width */
 }
 
 figure {
@@ -142,7 +143,7 @@ figcaption {
 
 /* Image Styles */
 section img {
-  width: 100%; /* Ensure images take up the full width of their container */
+  width: 400px;
   height: auto;
   margin: 10px;
 }
@@ -175,7 +176,6 @@ section img {
   height: 40vh;
   flex-direction: column;
   text-align: center;
-  width: 100%; /* Ensure the form takes up the full width */
 }
 
 .contact-form form {
@@ -192,49 +192,28 @@ section img {
     margin-bottom: 20px; 
 }
 
-/* Hero Section Style */
+/* Estilo para agregar recuadro a article y section */
+article, section {
+  border: 2px solid #000;  /* Borde negro de 2px */
+  padding: 15px;  /* Espacio dentro del recuadro */
+  margin: 20px 0;  /* Separación entre recuadros */
+  border-radius: 10px;  /* Bordes redondeados */
+}
+
+/* Estilo para agregar recuadro a la Hero Section */
 .hero {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-  width: 100%;
-  background-color: #ffffff; /* Fondo blanco */
-  border: 2px solid #005f73; /* Borde con el color primario */
-  border-radius: 10px; /* Bordes redondeados */
-  margin: 20px 0; /* Márgenes arriba y abajo */
+  border: 2px solid #000;  /* Borde negro de 2px */
+  padding: 20px;  /* Espacio dentro del recuadro */
+  margin: 20px 0;  /* Separación entre recuadro y otros elementos */
+  border-radius: 10px;  /* Bordes redondeados */
+  text-align: center;  /* Centra el texto */
 }
 
-.hero img {
-  max-width: 100%;
-  height: auto;
+/* Estilo para los recuadros (article, section, hero) */
+article, section, .hero {
+  background-color: #FFFFFF;  /* Fondo blanco para los recuadros */
+  border: 2px solid #000;     /* Borde negro de 2px */
+  padding: 15px;              /* Espacio dentro del recuadro */
+  margin: 20px 0;             /* Separación entre recuadros */
+  border-radius: 10px;        /* Bordes redondeados */
 }
-
-.hero h1 {
-  grid-column: 2;
-  font-size: 3rem;
-  color: #005f73;
-  font-family: 'Poppins', sans-serif;
-}
-
-/* Article Section Style */
-article {
-  padding: 20px;
-  background-color: #ffffff; /* Fondo blanco */
-  border: 2px solid #005f73; /* Borde con el color primario */
-  border-radius: 10px; /* Bordes redondeados */
-  margin: 20px 0; /* Márgenes arriba y abajo */
-}
-
-article h2 {
-  font-size: 2rem;
-  color: var(--primary-color);
-}
-
-article p {
-  font-size: 1rem;
-  color: #333;
-}
-
-
