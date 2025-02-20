@@ -83,9 +83,9 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   padding: 20px;
-  border: 2px solid #000;  /* Borde negro */
-  border-radius: 10px;      /* Bordes redondeados */
-  margin: 20px 0;           /* Separación entre recuadro y otros elementos */
+  border: 2px solid #000;  
+  border-radius: 10px;      
+  margin: 20px 0;       
 }
 
 footer a {
@@ -192,28 +192,28 @@ section img {
     margin-bottom: 20px; 
 }
 
-/* Estilo para agregar recuadro a article y section */
+
 article, section {
-  border: 2px solid #000;  /* Borde negro de 2px */
-  padding: 15px;  /* Espacio dentro del recuadro */
-  margin: 20px 0;  /* Separación entre recuadros */
-  border-radius: 10px;  /* Bordes redondeados */
+  border: 2px solid #000;  
+  padding: 15px;  
+  margin: 20px 0;  
+  border-radius: 10px; 
 }
 
-/* Estilo para agregar recuadro a la Hero Section */
+
 .hero {
-  border: 2px solid #000;  /* Borde negro de 2px */
-  padding: 20px;  /* Espacio dentro del recuadro */
-  margin: 20px 0;  /* Separación entre recuadro y otros elementos */
-  border-radius: 10px;  /* Bordes redondeados */
-  text-align: center;  /* Centra el texto */
+  border: 2px solid #000;  
+  padding: 20px;  
+  margin: 20px 0;  
+  border-radius: 10px; 
+  text-align: center;  
 }
 
-/* Estilo para los recuadros (article, section, hero) */
+
 article, section, .hero {
-  background-color: #FFFFFF;  /* Fondo blanco para los recuadros */
-  border: 2px solid #000;     /* Borde negro de 2px */
-  padding: 15px;              /* Espacio dentro del recuadro */
-  margin: 20px 0;             /* Separación entre recuadros */
-  border-radius: 10px;        /* Bordes redondeados */
+  background-color: #FFFFFF;  
+  border: 2px solid #000;    
+  padding: 15px;           
+  margin: 20px 0;            
+  border-radius: 10px;        
 }
